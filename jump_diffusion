@@ -1,0 +1,55 @@
+Ox code for inference for jump-diffusions Manuscript: Exact Monte Carlo likelihood-based inference for jump-diffusion processes. Authors: Flávio Gonçalves, Krzysztof Latuszynski and Gareth Roberts.
+
+The algorithms are coded in Ox
+
+Please, download Ox Console (including OxEdit) from the link https://www.doornik.com/download.html. Ox is free for academic use.
+
+
+For all the examples, there is a main file which is the one to be run and contains all the required specifications to be set.
+
+The datasets used in the paper are saved under the file XX.mat inside the respective folders of each algorithm.
+The first row of the file contains its number of rows and columns (Ox format).
+
+
+
+### Example from Section 5.1 ###
+
+EM algorithm
+
+Folder: Section_5.1\EM
+Main file: EM.ox
+
+
+MCMC algorithm
+
+Folder: Section_5.1\MCMC
+Main file: MCMC.ox
+
+
+### Example from Section 5.2 ###
+
+EM algorithm
+
+Folder: Section_5.1\EM
+Main files: EM.ox - runs the EM algorithm
+	    VEM.ox - computes the estimate of the covariance matrix of the MLE
+
+
+MCMC algorithm
+
+Folder: Section_5.2\MCMC
+Main file: MCMC.ox
+
+
+### Example from Section 6.1 ###
+
+Folder: Section_6.1\MCMC_USDxGBP
+Main file: MCMC.ox
+
+
+### Example from Section 6.2 ###
+
+Folder: Section_6.2\EM_SP500
+Main files: EM.ox - runs the EM algorithm
+	    VEM.ox - computes the estimate of the covariance matrix of the MLE
+
